@@ -14,25 +14,25 @@ class CategoryModel {
     categories.add(CategoryModel(
       name: 'Salad',
       iconPath: 'assets/icons/plate.svg',
-      boxColor: Color(0xff92a3fd),
+      boxColor: const Color(0xff92a3fd),
     ));
 
     categories.add(CategoryModel(
       name: 'Cake',
       iconPath: 'assets/icons/pancakes.svg',
-      boxColor: Color(0xffc58bf2),
+      boxColor: const Color(0xffc58bf2),
     ));
 
     categories.add(CategoryModel(
       name: 'Pie',
       iconPath: 'assets/icons/pie.svg',
-      boxColor: Color(0xff92a3fd),
+      boxColor: const Color(0xff92a3fd),
     ));
 
     categories.add(CategoryModel(
       name: 'Orange',
       iconPath: 'assets/icons/orange-snacks.svg',
-      boxColor: Color(0xffc58bf2),
+      boxColor: const Color(0xffc58bf2),
     ));
     return categories;
   }
