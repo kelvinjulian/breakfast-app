@@ -197,15 +197,16 @@ class HomePage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(50),
                       ),
                       child: Center(
-                          child: Text(
-                        'View',
-                        style: TextStyle(
-                            color: diets[index].viewIsSelected
-                                ? Colors.white
-                                : const Color(0xffc58bf2),
-                            fontWeight: FontWeight.w600,
-                            fontSize: 14),
-                      )),
+                        child: Text(
+                          'View',
+                          style: TextStyle(
+                              color: diets[index].viewIsSelected
+                                  ? Colors.white
+                                  : const Color(0xffc58bf2),
+                              fontWeight: FontWeight.w600,
+                              fontSize: 14),
+                        ),
+                      ),
                     )
                   ],
                 ),
